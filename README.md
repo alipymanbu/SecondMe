@@ -1,52 +1,25 @@
-# SecondMe
+# secondme
 
-**SecondMe** - это юзербот на Python, расширяющий и упрощающий функционал Telegram.
+本仓库是「secondme」的安卓版本获取入口，附使用资料索引。
 
-## Требования
-- Учетная запись Telegram с полученными API-ключами (API_ID, API_HASH)
-- Установленные зависимости, указанные в файле requirements.txt 
-```
-pip install -r requirements.txt
-```
+## 安装文件资源（夸克网盘）
 
-## Установка и настройка
-- Склонируйте репозиторий
-- Перед запуском юзербота создайте папку внутри репозитория с названием `secret_data`, в нём создайте файл `config.ini` с ключами и токенами
-- config.ini должен иметь следующий вид:
-```
-[OpenWeather]
-openweather_api_key=YOUR_API_KEY
+> **secondme 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/d2926c00dd4f](https://pan.quark.cn/s/d2926c00dd4f)
 
-[Telegram]
-api_id=YOUR_API_ID
-api_hash=YOUR_API_HASH
+## 官方项目
 
-[System]
-path_to_font=PATH_TO_FONT
-```
-- где api_id и api_hash - ваши Telegram API ключи(более подробная информация в интернете), openweather_api_key - ваш идентификатор, полученные с портала openweather, path_to_font - путь до шрифта, который будет использоваться при создании стикеров.
-- установить зависмости консольной командой:
-```
-pip install -r requirements.txt
-```
+- 上游项目：[koloideal/SecondMe](https://github.com/koloideal/SecondMe)
 
-## Особенности использования
-- Основной функционал юзербота:
+## 更多资料
 
-  <b>Users commands</b><br>
-  -help -- get help about commands<br>
-  -currency -- get actually information about currencies<br>
-  -me -- get information about you in Telegram<br>
-  -weather <city name> -- get information about weather<br>
-  <b>Creators commands</b><br>
-  _ban -- block user in private chat<br>
-  _clean -- remove history in private chat<br>
-  _sticker -- make sticker from reply message<br>
-  _you -- get information about user in private chat<br>
-  
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [会员套餐与钻石价格](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E4%BC%9A%E5%91%98%E5%A5%97%E9%A4%90%E4%B8%8E%E9%92%BB%E7%9F%B3%E4%BB%B7%E6%A0%BC.md)
+- [分身分享与人工接管](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E5%88%86%E8%BA%AB%E5%88%86%E4%BA%AB%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%8E%A5%E7%AE%A1.md)
+- [常见问题与解决方法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+- [怎么创建AI分身](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E6%80%8E%E4%B9%88%E5%88%9B%E5%BB%BAAI%E5%88%86%E8%BA%AB.md)
+- [数据与隐私说明](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/secondme/%E6%95%B0%E6%8D%AE%E4%B8%8E%E9%9A%90%E7%A7%81%E8%AF%B4%E6%98%8E.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-**Юзербот находится на стадии альфа-теста, поэтому баги и ошибки вполне вероятны и ожидаемы, в случае нахождения такого просьба скинуть скрины переписки с ботом в Telegram - <a href="https://t.me/kolo_id">@kolo_id<a>**
+---
 
-
-**Примечание:** Использование данного бота может быть ограничено правилами и политикой Telegram. Пожалуйста, убедитесь, что соблюдаете все правила Telegram при использовании этого бота.
-
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/koloideal/SecondMe)。
